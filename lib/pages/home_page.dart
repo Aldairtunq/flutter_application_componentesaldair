@@ -44,7 +44,7 @@ class HomePage extends StatelessWidget {
                   fontSize: 22.0,
                   letterSpacing: 1,
                   // fontWeight: FontWeight.bold,
-                ),
+                ),   
               ),
               const SizedBox(
                 width: 200.0,
@@ -114,6 +114,7 @@ class ItemComponentWidget extends StatelessWidget {
         trailing: Icon(
           Icons.chevron_right,
         ),
+        
       ),
     );
   }
